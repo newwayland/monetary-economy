@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "agent-based-economy"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "agent_based_economy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.3"
+pandas = "^2.0.2"
+spyder-kernels = "^2.4.3"
+tabulate = "^0.9.0"
+mesa = "^1.2.1"
+matplotlib = "^3.7.2"
+objgraph = "^3.6.0"
+ffmpeg = "^1.4"
+pillow = "^10.0.0"
+
+
+[tool.poetry.group.test.dependencies]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
